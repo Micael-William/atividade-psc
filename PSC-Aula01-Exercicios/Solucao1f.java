@@ -9,6 +9,6 @@ public class Solucao1f
       int num = Integer.parseInt(sNumero);
       int dezenas = (num / 10) % 10;    
       
-      JOptionPane.showMessageDialog(null, "O algarismo da casa das dezenas é: " + dezenas)
+      JOptionPane.showMessageDialog(null, "O algarismo da casa das dezenas é: " + dezenas);
    }
 }
