@@ -16,9 +16,9 @@ public class Solucao1w
       String caractere9 = JOptionPane.showInputDialog("Digite o 9º caractere:");
       String caractere10 = JOptionPane.showInputDialog("Digite o 10º caractere:");
       
-      String sConcatenado = caractere1 + caractere2 + caractere3 + caractere4 + caractere5 + 
+      String sPalavra = caractere1 + caractere2 + caractere3 + caractere4 + caractere5 + 
       caractere6 + caractere7 + caractere8 + caractere9 + caractere10;
             
-      JOptionPane.showMessageDialog(null, sConcatenado); 
+      JOptionPane.showMessageDialog(null, sPalavra); 
    }
 }

@@ -13,6 +13,6 @@ public class Solucao1i
       double base = Double.parseDouble(basenumero);
       double logaritmo = Math.log(numero) / Math.log(base);
       
-      System.out.println("O logaritmo de " + numero + " na base " + base + " é: " + logaritmo);
+      JOptionPane.showMessageDialog(null, "O logaritmo de " + numero + " na base " + base + " é: " + logaritmo);
    }
 }

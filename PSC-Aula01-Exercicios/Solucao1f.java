@@ -7,14 +7,8 @@ public class Solucao1f
       
       String sNumero = JOptionPane.showInputDialog("Digite um número inteiro de 3 dígitos");
       int num = Integer.parseInt(sNumero);
-      
       int dezenas = (num / 10) % 10;    
-       
-      System.out.println(num);
       
-      System.out.println(dezenas);
-      
-      System.out.println("O algarismo da casa das dezenas é: " + dezenas);
-
+      JOptionPane.showMessageDialog(null, "O algarismo da casa das dezenas é: " + dezenas);
    }
 }

@@ -3,8 +3,12 @@ public class Solucao1x
 {
    public static void main(String[] args)
    {
-      // Ler dez caracteres e imprimir a palavra formada por eles;
-     
+      /*** Leia 4 números inteiros, representando milhar, centena, dezena e unidade. Use o
+      tipo caractere para garantir que não seja digitado mais de um número por vez.
+      Depois concatene estes caracteres armazenando-os em uma String (lembre-se de
+      que o jeito mais fácil de transformar algo em String é concatenando-o com uma
+      String vazia “”). Imprima o resultado.  ***/
+      
       char  milhar = JOptionPane.showInputDialog("Digite um número que represente milhar:").charAt(0);
       char  centena = JOptionPane.showInputDialog("Digite um número que represente centena:").charAt(0);
       char  dezena = JOptionPane.showInputDialog("Digite um número que represente dezena:").charAt(0);
