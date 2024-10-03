@@ -8,7 +8,7 @@ public class Solucao3u {
         int pessoas = 20;
         int contador = 1;
 
-        while (quantidade <= pessoas)
+        while (contador <= pessoas)
         {
             String nome = JOptionPane.showInputDialog("Digite o nome: ");
             String sexo = JOptionPane.showInputDialog("Digite o sexo: ");
