@@ -40,4 +40,8 @@ public class Turma {
     public void setQuantidadeAlunos(int q){
         quantidadeDeAlunos = q;
     }
+
+    public void setSerie(int s){
+        serie = s;
+    }
 }
