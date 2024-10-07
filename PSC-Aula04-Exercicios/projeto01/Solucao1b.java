@@ -1,5 +1,5 @@
 package projeto01;
-public class Aluno {
+public class Solucao1b {
 
     private String nome;
     private int idade;
@@ -7,7 +7,7 @@ public class Aluno {
     private boolean formando;
     private char sexo;
 
-    public Aluno(String n, int i, double p, char s){
+    public Solucao1b(String n, int i, double p, char s){
         nome = n;
         idade = i;
         peso = p;

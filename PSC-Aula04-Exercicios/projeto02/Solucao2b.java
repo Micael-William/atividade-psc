@@ -1,12 +1,12 @@
 package projeto02;
-public class Turma {
+public class Solucao2b {
 
     private String nome;
     private String curso;
     private int quantidadeDeAlunos;
     private int serie;
 
-    public Turma (String n, String c, int q, int s){
+    public Solucao2b (String n, String c, int q, int s){
         nome = n;
         curso = c;
         quantidadeDeAlunos = q;

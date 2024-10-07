@@ -2,7 +2,7 @@ package projeto02;
 
 import javax.swing.JOptionPane;
 
-public class TestTurma {
+public class TesteSolucao2a {
     
     public static void main(String[] args) {
         String nome = JOptionPane.showInputDialog("Digite seu nome:");
@@ -10,7 +10,7 @@ public class TestTurma {
         int quantidade = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de alunos:"));
         int serie = Integer.parseInt(JOptionPane.showInputDialog("Digite sua série:"));
 
-        Turma turma = new Turma (nome, curso, quantidade, serie);
+        Solucao2b turma = new Solucao2b (nome, curso, quantidade, serie);
 
         String mensagem = "Nome Aluno: " + turma.getNome() + "\n" +
         "Curso: " + turma.getCurso() + "\n" + "Quantidade de Alunos: " + turma.getQuantidadeAlunos() +
