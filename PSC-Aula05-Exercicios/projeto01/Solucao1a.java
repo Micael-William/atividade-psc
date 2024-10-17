@@ -1,14 +1,14 @@
-public class Aluno {
+public class Solucao1a {
     // atributos
     private String nome;
     private int idade;
     private double peso;
     private boolean formando;
     private char sexo;
-    private Turma turma;
+    private Solucao1b turma;
 
     // construtor
-    public Aluno(String nome, int idade, double peso, char sexo, Turma turma) {
+    public Solucao1a(String nome, int idade, double peso, char sexo, Solucao1b turma) {
         this.nome = nome;
         this.idade = idade;
         this.peso = peso;
@@ -38,7 +38,7 @@ public class Aluno {
         return sexo;
     }
 
-    public Turma getTurma() {
+    public Solucao1b getTurma() {
         return turma;
     }
 
@@ -63,7 +63,7 @@ public class Aluno {
         this.sexo = sexo;
     }
 
-    public void setTurma(Turma turma) {
+    public void setTurma(Solucao1b turma) {
         this.turma = turma;
     }
 

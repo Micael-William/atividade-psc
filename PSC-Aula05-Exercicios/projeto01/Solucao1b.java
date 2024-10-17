@@ -1,10 +1,10 @@
-public class Turma {
+public class Solucao1b {
     // atributos
     private String codigo;
     private int ano;
 
     // construtor
-    public Turma(String codigo, int ano) {
+    public Solucao1b(String codigo, int ano) {
         this.codigo = codigo;
         this.ano = ano;
     }

@@ -1,11 +1,11 @@
 package projeto02;
 
-public class Professor {
+public class Solucao2c {
     
     private String nome;
     private int idade;
 
-    public Professor(String nome, int idade){
+    public Solucao2c(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
     }

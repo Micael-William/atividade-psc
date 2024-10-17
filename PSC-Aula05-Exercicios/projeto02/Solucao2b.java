@@ -1,10 +1,10 @@
 package projeto02;
 
-public class Disciplina {
+public class Solucao2b {
     private String nome;
     private boolean pratica;
 
-    public Disciplina (String nome, boolean pratica){
+    public Solucao2b (String nome, boolean pratica){
         this.nome = nome;
         this.pratica = pratica;
     }

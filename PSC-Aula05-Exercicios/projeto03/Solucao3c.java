@@ -1,12 +1,13 @@
 package projeto03;
-public class Cliente {
+public class Solucao3c {
     private String nome;
     private String cpf;
-    // private ContaCorrente contacorrente;
+    private Solucao3d conta;
 
-    public Cliente (String nome, String cpf){
+    public Solucao3c (String nome, String cpf, Solucao3d conta){
         this.nome = nome;
         this.cpf = cpf;
+        this.conta = conta;
     }
 
     public String getNome(){
@@ -17,6 +18,10 @@ public class Cliente {
         return cpf;
     }
 
+    public Solucao3d getConta(){
+        return conta;
+    }
+
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -24,4 +29,9 @@ public class Cliente {
     public void setCpf(String cpf){
         this.cpf = cpf;
     }
+
+    public void setConta(Solucao3d conta){
+        this.conta = conta;
+    }
+    
 }

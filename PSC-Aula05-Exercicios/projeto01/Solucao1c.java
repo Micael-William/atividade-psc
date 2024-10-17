@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class TesteAluno {
+public class Solucao1c {
     // cadastrar um novo aluno no metodo main
     public static void main(String[] args) {
         // coletando os dados do aluno a ser cadastrado
@@ -14,10 +14,10 @@ public class TesteAluno {
         int ano = Integer.parseInt(JOptionPane.showInputDialog("Ano da Turma"));
 
         // cria a turma
-        Turma turma = new Turma(codigo, ano);
+        Solucao1b turma = new Solucao1b(codigo, ano);
 
         // cria um objeto aluno
-        Aluno aluno = new Aluno(nome, idade, peso, sexo, turma);
+        Solucao1a aluno = new Solucao1a(nome, idade, peso, sexo, turma);
 
         // nao precisa mais montar a string de saida, e so chamar o metodo getDados
         // mostra o aluno

@@ -1,26 +1,26 @@
 package projeto02;
 
-public class Atribuicao {
-    private Professor professor;
-    private Disciplina disciplina;
+public class Solucao2a {
+    private Solucao2c professor;
+    private Solucao2b disciplina;
 
-    public Atribuicao (Professor professor, Disciplina disciplina){
+    public Solucao2a (Solucao2c professor, Solucao2b disciplina){
         this.professor = professor;
         this.disciplina = disciplina;
     }
 
-    public Professor getProfessor(){
+    public Solucao2c getProfessor(){
         return professor;
     }
 
-    public Disciplina getDisciplina(){
+    public Solucao2b getDisciplina(){
         return disciplina;
     }
 
-    public void setProfessor(Professor professor){
+    public void setProfessor(Solucao2c professor){
         this.professor = professor;
     }
-    public void setDisciplina(Disciplina disciplina){
+    public void setDisciplina(Solucao2b disciplina){
         this.disciplina = disciplina;
     }
 
