@@ -21,7 +21,7 @@ public class Pagamento {
     public double getValorASerPago(){
         return valorASerPago;
     }
-
+    
     public void setNomeDoPagador(String nomeDoPagador){
         this.nomeDoPagador = nomeDoPagador;
     }

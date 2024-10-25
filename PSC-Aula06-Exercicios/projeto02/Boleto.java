@@ -6,8 +6,8 @@ public class Boleto extends Pagamento{
     private int mes;
     private int anoDeVencimento;
 
-    public Boleto (String numeroDoBoleto, int dia, int mes, int anoDeVencimento){
-        super(numeroDoBoleto, numeroDoBoleto, anoDeVencimento);
+    public Boleto (String nomeDoPagador, String cpf, double valorASerPago, String numeroDoBoleto, int dia, int mes, int anoDeVencimento){
+        super(nomeDoPagador, cpf, valorASerPago);
         this.numeroDoBoleto = numeroDoBoleto;
         this.dia = dia; 
         this.mes = mes;
