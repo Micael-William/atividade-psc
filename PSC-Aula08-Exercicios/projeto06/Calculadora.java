@@ -41,7 +41,7 @@ public class Calculadora extends JFrame implements ActionListener {
         input.setFont(new Font("Arial", Font.PLAIN, 24));
 
         botoes = new JPanel(new GridLayout(4, 4));
-
+        
         botoes.add(btn7);
         botoes.add(btn8);
         botoes.add(btn9);
